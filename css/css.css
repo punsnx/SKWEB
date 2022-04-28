@@ -1,0 +1,373 @@
+/* Main */
+body {
+  font-family: "Kanit", sans-serif;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: lightgoldenrodyellow;
+}
+
+header {
+  height: 300px;
+  background-image: url(/Pictures/Hpic.jpg);
+}
+nav {
+  height: 50px;
+  /*background-color: gray;*/
+  margin: 0 auto;
+  font-size: 0;
+}
+nav a:hover {
+  background-color: #8be2a8;
+}
+.button {
+  background-color: #50c878;
+  border: none;
+  color: white;
+  padding: 13px 52.62px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+/* Main */
+
+/* Body */
+.mainsection {
+  height: 1150px;
+  background-color: white;
+}
+
+.mainsection-about41 {
+  height: 2700px;
+  background-color: white;
+}
+.sectiont401 {
+  width: 1000px;
+  padding-top: 300px;
+}
+.mainsection-fallback {
+  background-image: url(/Pictures/404.svg);
+  width: 1000px;
+  padding-top: 1000px;
+}
+.h1wel {
+  width: 1000px;
+  background-color: turquoise;
+}
+.lsec {
+  width: 40%;
+  float: left;
+}
+.rightarticle {
+  width: 60%;
+  float: right;
+}
+.lsec,
+.rightarticle {
+  height: 300px;
+}
+
+/* Body */
+
+/* NEWS UPDATE */
+.NewsUpdate {
+  width: 590px;
+  height: 290px;
+  line-height: 3px;
+  overflow: scroll;
+  padding: 5px;
+}
+.NewsUpdate li a {
+  color: grey;
+  border: none;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.NewsUpdate li a:hover {
+  color: blue;
+  border: none;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.NewsUpdate p {
+  color: green;
+}
+
+/* NEWS UPDATE */
+
+/* TABLE HOME*/
+
+#t401 {
+  margin-top: 50px;
+  margin-left: 150px;
+  width: 70%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#t401 th,
+#t401 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  text-align: center;
+}
+#t401 th {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  color: white;
+  height: 50px;
+  background-color: black;
+}
+
+#t401 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t401 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.space1 {
+  display: block;
+  width: 1000px;
+  height: 10px;
+  background-color: teal;
+}
+.space2 {
+  height: 10px;
+  padding: 10px;
+  background-color: white;
+}
+/* TABLE HOME*/
+
+/* Student Goto Info Button*/
+.stdgotoinfobt:hover {
+  background-color: #ff796f;
+}
+.stdgotoinfobt {
+  background-color: #ff3838;
+  border: none;
+  color: white;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+/* Student Goto Info Button*/
+
+/* STD INFO TABLE*/
+.rightarticle #STDINFO {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.rightarticle #STDINFO th {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+.rightarticle #STDINFO th,
+.rightarticle #STDINFO td {
+  border-collapse: collapse;
+  text-align: left;
+}
+.rightarticle #STDINFO td {
+  padding-left: 40px;
+}
+
+/* STD INFO TABLE*/
+
+/* BACK HOME BT*/
+.backtohome {
+  margin: 0 auto;
+  cursor: pointer;
+  margin-left: 450px;
+  display: inline-block;
+
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  background-color: #50c878;
+}
+.backtohome:hover {
+  background-color: #8be2a8;
+}
+
+/* BACK HOME BT*/
+
+/* Files Table Button*/
+.rightarticle #FilesTable {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.rightarticle #FilesTable th {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+.rightarticle #FilesTable th,
+.rightarticle #FilesTable td {
+  border-collapse: collapse;
+  text-align: left;
+}
+.rightarticle #FilesTable td {
+  padding-left: 40px;
+}
+.btfiles {
+  margin: 0 auto;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  background-color: #ff9900;
+}
+.btfiles:hover {
+  background-color: #ffe23e;
+}
+/* Files Table Button*/
+
+/* Contain BT Files Div */
+.containbtlinkfiles {
+  width: 460px;
+  height: auto;
+  margin-left: 40px;
+}
+/* Contain BT Files Div */
+
+/* Subject Video Link Button*/
+.SubjectVideoLinkBT {
+  margin: 0 auto;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  background-color: #0059ff;
+}
+.SubjectVideoLinkBT:hover {
+  background-color: #4aaeff;
+}
+/* Subject Video Link Button*/
+
+/* TABLE ABOUT 4-1*/
+
+#tabout401 {
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 90%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#tabout401 th,
+#tabout401 td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+#tabout401 th {
+  background-color: black;
+  color: white;
+}
+
+#tabout401 tr:nth-child(even) {
+  background-color: #eee;
+}
+#tabout401 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* TABLE ABOUT 4-1 BUTTON*/
+.aboutbtline {
+  margin: 0 auto;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  padding: 5px;
+  background-color: #8de006;
+}
+.aboutbtline:hover {
+  background-color: #afff65;
+}
+.aboutbtfb {
+  margin: 0 auto;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+  background-color: #0059ff;
+}
+.aboutbtfb:hover {
+  background-color: #2583ff;
+}
+.aboutbtig {
+  margin: 0 auto;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+  background-color: #ff0037;
+}
+.aboutbtig:hover {
+  background-color: #ff558d;
+}
+.ourig {
+  height: 1px;
+  margin-left: 350px;
+  display: inline-block;
+}
+.ourigbt {
+  margin: 0 auto;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding: 5px;
+  background-color: #ff0037;
+}
+.ourigbt:hover {
+  background-color: #ff558d;
+}
+
+/* TABLE ABOUT 4-1*/

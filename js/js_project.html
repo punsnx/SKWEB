@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ตัวอย่างการคำนวณโดยใช้ javascipt</title>
+    <!-- url ที่ได้จากเว็บ google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <!-- url ของไฟล์ css ที่สร้างไว้ -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>    
+    <header>
+        <!-- Header -->
+    </header>
+    <!-- ส่วนแถบเมนู -->
+    <nav>
+        <!-- Nav -->
+        <a href="index.html" class="button">หน้าหลัก</a>
+        <a href="1.html" class="button">เพื่อนคนที่ 1</a>
+        <a href="2.html" class="button">เพื่อนคนที่ 2</a>
+        <a href="3.html" class="button">เพื่อนคนที่ 3</a>
+        <a href="4.html" class="button">เพื่อนคนที่ 4</a>
+        <a href="5.html" class="button">เพื่อนคนที่ 5</a>
+    </nav>
+    <!-- ส่วนข้อมูลแถบด้านซ้ายที่เป็นชื่อเพื่อน -->
+    <section>
+        <!-- Section -->
+        <div class="headtextsection"><b>ข้อความจากผู้สร้างเว็บไซต์ <br></b>
+            เว็บไซต์นี้สร้างขึ้นเพื่อรวบรวมข้อมูลเพื่อนนักเรียนชั้น ม.4/1 โรงเรียนอยุธยาวิทยาลัย การสร้างเว็บไซต์นี้เป็นการฝึกการใช้ภาษา HTML และ CSS
+        </div>
+        
+    </section>
+    <!-- โปรแกรมส่วนภาษา javascipt -->
+    <script>
+        // สร้างฟังชันก์การบวก
+        function plus(){    
+             var num1 = document.getElementById("input1").value; //รับข้อมูลจากช่อง input >id ชื่อ input1 จากหน้า html
+             var num2 = document.getElementById("input2").value; //รับข้อมูลจากช่อง input >id ชื่อ input2 จากหน้า html     
+             var number1 = parseFloat(num1);    //แปลงชนิดข้อมูล num1 ให้เป็นตัวเลขแบบทศนิยม
+             var number2 = parseFloat(num2);    //แปลงชนิดข้อมูล num2 ให้เป็นตัวเลขแบบทศนิยม              
+             if ((isNaN(number1))||(isNaN(number2))){ //ตัวสอบเงื่อนไขข้อมูลตัวแปรทั้ง 2 ตัวว่าเป็นตัวเลขหรือไม่ ถ้าข้อมูลตัวแปรตัวใดตัวหนึ่งไม่เป็นตัวเลข                
+                 document.getElementById("show").setAttribute("color","red");   // ตั้งค่าแสดงผลที่ตำแหน่ง id ชื่อ show ใน HTML ให้ตัวอักษรเป็นสีแดง
+                 show.innerHTML="ERROR";   //แสดงข้อความ ERROR ที่ตำแหน่ง id show 
+             }    
+             else { //ถ้าข้อมูลเป็นตัวเลขทั้งคู่ ให้คำนวณตามสูตร        
+                result=number1+number2;      //คำนวณแล้วเก็บค่าไว้ที่ตัวแปร result
+                result = Math.round(result*100)/100;    // หากข้อมูลการคำนวณผลลัพธ์เป็นเลขทศนิยมให้แสดงทศนิยม 2 ตำแหน่ง
+                document.getElementById("show").setAttribute("color","green"); //ตั้งค่าแสดงผลที่ตำแหน่ง id ชื่อ show ใน HTML ให้ตัวอักษรเป็นสีเขียว
+                show.innerHTML=result;  //นำข้อมูลตัวแปร result ไปแสดงที่ตำแหน่ง id show
+             }
+            }
+        // สร้างฟังชันก์การลบ
+        function minus(){    
+            
+             var num1 = document.getElementById("input1").value;
+             var num2 = document.getElementById("input2").value;      
+             var number1 = parseFloat(num1);
+             var number2 = parseFloat(num2);                  
+             if ((isNaN(number1))||(isNaN(number2))){
+                 document.getElementById("show").setAttribute("color","red");
+                 show.innerHTML="ERROR";
+             }    
+             else {         
+                result=number1-number2;      
+                result = Math.round(result*100)/100;
+                document.getElementById("show").setAttribute("color","green");
+                show.innerHTML=result;
+             }
+            }  
+        // สร้างฟังชันก์การคูณ
+        function multiplied(){    
+            
+             var num1 = document.getElementById("input1").value;
+             var num2 = document.getElementById("input2").value;      
+             var number1 = parseFloat(num1);
+             var number2 = parseFloat(num2);                  
+             if ((isNaN(number1))||(isNaN(number2))){
+                 document.getElementById("show").setAttribute("color","red");
+                 show.innerHTML="ERROR";
+             }    
+             else {         
+                result=number1*number2;      
+                result = Math.round(result*100)/100;
+                document.getElementById("show").setAttribute("color","green");
+                show.innerHTML=result;
+             }
+           }
+        // สร้างฟังชันก์การหาร
+        function divide(){    
+            
+             var num1 = document.getElementById("input1").value;
+             var num2 = document.getElementById("input2").value;      
+             var number1 = parseFloat(num1);
+             var number2 = parseFloat(num2);    
+             if ((isNaN(number1))||(isNaN(number2))){
+                 document.getElementById("show").setAttribute("color","red");
+                 show.innerHTML="ERROR";
+             }    
+             else {         
+                result =number1/number2;    
+                result = Math.round(result*100)/100;  
+                document.getElementById("show").setAttribute("color","green");
+                show.innerHTML=result;
+             }      
+           }   
+        
+      </script>
+    <!-- ส่วนที่แสดงผล -->
+    <article>
+        <!-- Article -->
+        <div>
+            <img src="images/Doraemon.png" alt="Doraemon" width="200px" height="300px">
+            <br>
+            โปรแกรมเครื่องคิดเลข
+            <br>
+            <!-- เรียกใช้งาน ช่อง input ที่ใช้รับข้อมูลจากผู้ใช้ -->
+            ช่อง1  : <input id="input1" size="10"><br> 
+            ช่อง2  : <input id="input2" size="10"><br>       
+            ผลลัพธ์ : <font id="show" color=""></font> <br>        
+            <!-- เรียกใช้งาน ปุ่มคำนวณ แต่ละปุ่มจะเรียกใช้งานฟังก์ชั่นที่สร้างในภาษา javascript  -->
+            <button onclick="plus()">+</button>
+            <button onclick="minus()">-</button>
+            <button onclick="multiplied()">x</button>
+            <button onclick="divide()">/</button>
+        </div>
+        
+    </article>
+    <!-- ส่วนท้ายของหน้าเว็บเพจ -->
+    <footer>
+        <!-- Footer -->
+        ติดต่อ : นายกิตติพัฒน์ สงวนงาม <br>
+        โรงเรียนอยุธยาวิทยาลัย<br>
+        line : @aaaaa <br>
+        facebook : @aaaa
+    </footer>
+</body>
+</html>

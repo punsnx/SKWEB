@@ -1,0 +1,571 @@
+@media only screen and (min-width: 600px) /* FOR DESKTOP*/ {
+  /* Main */
+  .responsive {
+    font-family: "Kanit", sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  /* Main */
+
+  /*TOP USER BAR*/
+  .topuserbardesk {
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+  }
+
+  .btnsignup-d {
+    border-radius: 10px;
+    border: 2px solid orange;
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .btnsignup-d:hover {
+    border: none;
+    color: white;
+    background-color: orange;
+  }
+
+  /*TOP USER BAR2 Sign in*/
+  .signinbartop {
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+  }
+  .btnsigninalld {
+    border-radius: 10px;
+    border: 2px solid orange;
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .btnsigninalld:hover {
+    border: none;
+    color: white;
+    background-color: orange;
+  }
+
+  /* Header BG*/
+  header {
+    height: 300px;
+    background-image: url(/Pictures/Hpic.jpg);
+    background-size: auto;
+  }
+  #DIVBG {
+    display: none;
+  }
+  /* Header BG*/
+
+  /*SHOW NAV RESPONSIVE*/
+  .mobilenav {
+    display: none;
+  }
+  .desktopnav {
+    display: block;
+  }
+
+  /*ALL TABS NAV BUTTON*/
+  nav {
+    height: 50px;
+    /*background-color: gray;*/
+    margin: 0 auto;
+    font-size: 0;
+  }
+  nav a:hover {
+    background-color: #8be2a8;
+  }
+  .button {
+    background-color: #50c878;
+    border: none;
+    color: white;
+    padding: 13px 54.9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  /* Body */
+  .mainsection {
+    height: auto;
+    background-color: white;
+  }
+
+  .mainsection-about41 {
+    height: auto;
+    background-color: white;
+  }
+  .sectiont401 {
+    width: 1000px;
+    padding-top: 300px;
+  }
+  .mainsection-fallback {
+    background-image: url(/Pictures/404.svg);
+    width: 1000px;
+    padding-top: 1000px;
+  }
+  .lsec {
+    width: 40%;
+    float: left;
+    height: 400px;
+  }
+  .stdpicture {
+    width: 40%;
+    float: left;
+    height: 300px;
+  }
+  .rightarticle {
+    width: 60%;
+    float: right;
+    height: 400px;
+  }
+
+  .imgleftsectionfull img {
+    width: 400px;
+    height: auto;
+  }
+
+  /* Body */
+
+  /* Head Text Top ALL PAGES*/
+  .HeadTextTop h1 {
+    text-align: center;
+    font-size: 300%;
+  }
+
+  /* Head Text Top ALL PAGES*/
+
+  /* NEWS UPDATE */
+  .desknews {
+    display: block;
+  }
+  .NewsUpdateDesktop {
+    margin: 3.5%;
+    border: 2px solid rgb(255, 208, 107);
+    width: 90%;
+    height: 240px;
+    line-height: 16px;
+    overflow: scroll;
+    padding: 5px;
+  }
+  .NewsUpdateMobile {
+    display: none;
+  }
+  .NewsUpdateDesktop li a {
+    color: grey;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .NewsUpdateDesktop li a:hover {
+    color: blue;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .NewsUpdateDesktop p {
+    color: green;
+  }
+
+  /* NEWS UPDATE */
+
+  /* TABLE HOME*/
+
+  #t401 {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 70%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #t401 th,
+  #t401 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+  }
+  #t401 th {
+    background-color: black;
+    color: white;
+  }
+
+  footer {
+    clear: both;
+    text-align: center;
+    color: white;
+    height: 50px;
+    background-color: black;
+  }
+
+  #t401 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #t401 tr:nth-child(odd) {
+    background-color: #fff;
+  }
+
+  .space1 {
+    display: block;
+    width: 1000px;
+    height: 10px;
+    background-color: teal;
+  }
+  .space2 {
+    height: 10px;
+    padding: 10px;
+    background-color: white;
+  }
+  /* TABLE HOME*/
+
+  /* Student Goto Info Button*/
+  .stdgotoinfobt:hover {
+    background-color: #ff796f;
+  }
+  .stdgotoinfobt {
+    background-color: #ff3838;
+    border: none;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  /* Student Goto Info Button*/
+
+  /* STD INFO TABLE*/
+  .rightarticle #STDINFO {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .rightarticle #STDINFO th {
+    text-align: center;
+    padding: 10px;
+    color: black;
+  }
+  .rightarticle #STDINFO th,
+  .rightarticle #STDINFO td {
+    border-collapse: collapse;
+    text-align: left;
+  }
+  .rightarticle #STDINFO td {
+    padding-left: 40px;
+  }
+
+  /* STD INFO TABLE*/
+
+  /* BACK HOME BT*/
+  .backtohome {
+    margin: 0 auto;
+    cursor: pointer;
+    margin-left: 450px;
+    display: inline-block;
+
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    background-color: #50c878;
+  }
+  .backtohome:hover {
+    background-color: #8be2a8;
+  }
+
+  /* BACK HOME BT*/
+
+  /* Files Table Button*/
+  .rightarticle #FilesTable {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .rightarticle #FilesTable th {
+    text-align: center;
+    padding: 10px;
+    color: black;
+  }
+  .rightarticle #FilesTable th,
+  .rightarticle #FilesTable td {
+    border-collapse: collapse;
+    text-align: left;
+  }
+  .rightarticle #FilesTable td {
+    padding-left: 40px;
+  }
+  .btfiles {
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+    background-color: #ff9900;
+  }
+  .btfiles:hover {
+    background-color: #ffe23e;
+  }
+  /* Files Table Button*/
+
+  /* Contain BT Files Div */
+  .containbtlinkfiles {
+    width: 460px;
+    height: auto;
+    margin-left: 40px;
+  }
+  /* Contain BT Files Div */
+
+  /* Subject Video Link Button*/
+  .SubjectVideoLinkBT {
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+    background-color: #0059ff;
+  }
+  .SubjectVideoLinkBT:hover {
+    background-color: #4aaeff;
+  }
+  /* Subject Video Link Button*/
+
+  /* TABLE ABOUT 4-1*/
+
+  #tabout401 {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 90%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #tabout401 th,
+  #tabout401 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  #tabout401 th {
+    background-color: black;
+    color: white;
+  }
+
+  #tabout401 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #tabout401 tr:nth-child(odd) {
+    background-color: #fff;
+  }
+
+  /* TABLE ABOUT 4-1 BUTTON*/
+  .aboutbtline {
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+    background-color: #8de006;
+  }
+  .aboutbtline:hover {
+    background-color: #afff65;
+  }
+  .aboutbtfb {
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    background-color: #0059ff;
+  }
+  .aboutbtfb:hover {
+    background-color: #2583ff;
+  }
+  .aboutbtig {
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    background-color: #ff0037;
+  }
+  .aboutbtig:hover {
+    background-color: #ff558d;
+  }
+  .ourig {
+    height: 1px;
+    margin-left: 350px;
+    display: inline-block;
+  }
+  .ourigbt {
+    margin: 0 auto;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    background-color: #ff0037;
+  }
+  .ourigbt:hover {
+    background-color: #ff558d;
+  }
+  /* TABLE ABOUT 4-1*/
+
+  /* CLOCK INDEX*/
+  .clock {
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+  /* Projects Page*/
+  .fpjtop {
+    width: 100%;
+    height: auto;
+  }
+  /* TABLE Pj*/
+
+  #tbgpax {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 70%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #tbgpax th,
+  #tbgpax td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+  }
+  #tbgpax th {
+    background-color: black;
+    color: white;
+  }
+
+  #tbgpax tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #tbgpax tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  /* TABLE PjCalculator*/
+
+  #tbcalc {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 70%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #tbcalc th,
+  #tbcalc td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+  }
+  #tbcalc th {
+    background-color: black;
+    color: white;
+  }
+
+  #tbcalctr:nth-child(even) {
+    background-color: #eee;
+  }
+  #tbcalc tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  .op {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  .op:hover {
+    background-color: #e96138;
+  }
+  .numbt {
+    background-color: #66c000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  .numbt:hover {
+    background-color: #5daf00;
+  }
+  input {
+    width: 145px;
+    height: 50px;
+    font-size: 75px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+  }
+  #myform {
+    margin-left: 225px;
+    margin-top: 20px;
+  }
+}
