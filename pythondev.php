@@ -8,6 +8,9 @@
   <head>
     <script src="/js/main.js"></script>
     <script src="/js/caculator.js"></script>
+    <!-- PYSCRIPT -->
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -92,62 +95,13 @@
     <section class="mainsection">
       <br>
       <h1 style="text-align: center; font-size: 300%;" class="animate__bounceIn">Projects</h1>
-      <div class="fpjtop">
-
-      <div class="animate__bounceIn" id="tprofilelist">
-
-
-
+      <div>
 
       </div>
-      <!-- START TB401 -->
-      <div class="animate__bounceIn"><table id="t401">
-        <caption><b>รายชื่อเพื่อน ม.4/1</b></caption>
-        <tr>
-          <th>ลำดับ</th>
-          <th>ชื่อ</th>
-          <th>นามสกุล</th>
-          <th>เลขที่</th>
-        </tr>
-        <tr>
-          <td><a href="/std1.php" class="stdgotoinfobt">1</a></td>
-          <td>นายจตุรัตน์</td>
-          <td>ช่างทอง</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td><a href="/std2.php" class="stdgotoinfobt">2</a></td>
-          <td>นายอดิเทพ</td>
-          <td>แก้วเทพ</td>
-          <td>13</td>
-        </tr>
-        <tr>
-          <td><a href="/std3.php" class="stdgotoinfobt">3</a></td>
-          <td>นายคณิน</td>
-          <td>สลัดทุกข์</td>
-          <td>17</td>
-        </tr>
-        <tr>
-          <td><a href="/std4.php" class="stdgotoinfobt">4</a></td>
-          <td>นายภาณุวัฒน์</td>
-          <td>วงศ์จินดา</td>
-          <td>9</td>
-        </tr>
-        <tr>
-          <td><a href="/std5.php" class="stdgotoinfobt">5</a></td>
-          <td>นายกิตติธร</td>
-          <td>จงเจริญ</td>
-          <td>16</td>
-        </tr>
-
-      </table>
-      </div>
-
       <div>
         <a href="/index.php" class="backtohome">Back to home</a>
       </div>
       <br>
-      <!-- END TB401 -->
     </section>
  
     <!-- FOOTER -->
